@@ -1,0 +1,4 @@
+For this project I referenced the websites geeksforgeeks, stackoverflow, etc. to get a general idea for the project and how to imlment a min heap. I also watched the video posted by Anna to see what the program is asking for and what it should look like after being executed. I also referenced the java sheet for commands as well as the LocalDateTime link Anna put in the class to find functions regarding how to use time in the code.
+Before starting, I talked to TAs regarding how to aprroach the problem and they gave me advice on how to wirte helper methods constructors, etc. 
+For the thought process of the actual code, while I didn't work with anyone specificially for the code, I did have a chat with fellow peers on how to approach the code as well as what should be included for the code to run.
+For the writing of the code, I wrote it taking into consideration on what I have learned, and added comments to show each step of my thinking process.

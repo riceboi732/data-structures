@@ -1,0 +1,13 @@
+# The list of all links test between articles.	
+# Article names are URL-encoded; e.g., in Java they can be decoded using java.net.URLDecoder.decode(articleName, "UTF-8").	
+# FORMAT:   linkSource   linkTarget	
+	
+47_Ursae_Majoris	3_Juno
+3_Juno	47_Ursae_Majoris
+47_Ursae_Majoris	Absolute_zero
+Absolute_zero	A._E._J._Collins
+A._E._J._Collins	3_Juno
+A._E._J._Collins	Richard_O%27Connor
+Richard_O%27Connor	Programming_language
+Programming_language	47_Ursae_Majoris
+Summer_Hill%2C_New_South_Wales	Rubik%27s_Cube

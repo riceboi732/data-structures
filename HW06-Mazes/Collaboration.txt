@@ -1,0 +1,1 @@
+I referenced the reference sheet for this program. Maze 4 comes courtesy of my sister as I asked her to make a maze for me due to the fact that I was brain dead after maze2 and maze3. I reviewed the videos from class and talked to the TA for parts of the code. 

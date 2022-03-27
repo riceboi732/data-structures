@@ -1,0 +1,42 @@
+# The list of all test vertices.													
+#	---------------------------------------------------------						
+# We gonna make the directed graph: 47_Ursae_Majoris <--> 3_Juno <-- A._E._J._Collins <-- Absolute_zero	Abac%C3%A1												
+#					Programming_language <-- Richard_O%27Connor       Summer_Hill%2C_New_South_Wales --> Rubik%27s_Cube								
+													
+# Article names are URL-encoded; e.g., in Java they can be decoded using java.net.URLDecoder.decode(articleName, "UTF-8").													
+# FORMAT:   article	
+# Values expected for certain pairs without intermediateNode:
+# - path from 47_Ursae_Majoris to Absolute_zero has the length of 1.
+#	articles route: 47_Ursae_Majoris --> Absolute_zero
+#													
+# - There is no path from Summer_Hill,_New_South_Wales to , and length is -1.													
+#													
+# - There is no path from Abacá to 3_Juno, and length is -1.					
+#													
+# - path from Richard_O'Connor to A._E._J._Collins has the length of 4.													
+#	articles route: Richard_O%27Connor --> Programming_language --> 47_Ursae_Majoris --> Absolute_zero --> A._E._J._Collins	
+#													
+# - path from Programming_language to Programming_language has the length of 0.													
+#	articles route: Programming_language												
+#													
+# values expected for certain pairs with intermediateNode:	
+# - There is no path from Summer_Hill,_New_South_Wales through Absolute_zero to Richard_O'Connor, and length is -1.				
+#													
+# - path from Absolute_zero through 47_Ursae_Majoris to Absolute_zero has the length of 4.													
+#	articles route: Absolute_zero --> A._E._J._Collins --> 3_Juno --> 47_Ursae_Majoris --> Absolute_zero												
+#													
+# - path from A._E._J._Collins through A._E._J._Collins to A._E._J._Collins has the length of 0.													
+#	articles route: A._E._J._Collins												
+#													
+# - path from Richard_O'Connor through Richard_O'Connor to 47_Ursae_Majoris has the length of 2.													
+#	articles route: Richard_O%27Connor --> Programming_language --> 47_Ursae_Majoris							
+													
+47_Ursae_Majoris													
+3_Juno													
+A._E._J._Collins													
+Absolute_zero													
+Programming_language													
+Richard_O%27Connor													
+Rubik%27s_Cube													
+Summer_Hill%2C_New_South_Wales													
+Abac%C3%A1													

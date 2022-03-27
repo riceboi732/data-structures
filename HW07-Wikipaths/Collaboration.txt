@@ -1,0 +1,3 @@
+I worked by myself on this project. Nobody seemed to be on Piazza when I asked to work together so I just made some arbitrary test cases to test it out.
+
+I did have some minor technical questions for the TA and refered to the reference sheet for some syntax issues.
